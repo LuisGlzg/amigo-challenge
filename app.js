@@ -7,6 +7,7 @@ function agregarAmigo(){
     let nombrehtml = document.querySelector(input);
     nombres.push(nombrehtml);
 
+    console.log(nombres);
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = nombres;
 }
