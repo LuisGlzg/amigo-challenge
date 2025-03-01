@@ -39,7 +39,7 @@ body {
     padding: 40px 0 0;
 }
 
-/* Sección de entrada */
+/* Secció de entrada */
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
