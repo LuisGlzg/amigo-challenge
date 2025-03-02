@@ -21,4 +21,13 @@ function limpiarCaja(){
     document.querySelector('#amigo').value = '';
 }
 
+function sortearAmigo(){
+
+    let generanumero = Math.floor(Math.random()*intento);
+    let nombresort = document.getElementById('resultado');
+    nombresort.innerHTML = nombres[generanumero];
+
+   // if (document.querySelector('#resultado').value == '') exit;
+}
+
 agregarAmigo();
