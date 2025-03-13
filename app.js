@@ -65,3 +65,6 @@ function reiniciarTodo() {
     console.log("Listo puedes empezar de nuevo el juego.");
 }
 
+
+
+
