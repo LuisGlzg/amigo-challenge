@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: green;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -87,9 +87,11 @@ body {
     font-size: 16px;
 }
 
-.button-container {
+.button {
     width: 300px;
+    display: flex;
     justify-content: center;
+    gap: 2rem;
 }
 
 /* Estilos de entrada de texto */
@@ -122,17 +124,20 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: rgb(0, 242, 255);
 }
 
 /* Listas */
 ul {
-    list-style-type: none;
+    list-style-type: disc;
+    padding-left: 10px;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
 }
+
+
 
 .result-list {
     margin-top: 15px;
@@ -141,6 +146,7 @@ ul {
     font-weight: bold;
     text-align: center;
 }
+
 
 /* Botón de sortear título */
 .button-draw {
@@ -159,4 +165,6 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+    color: blue;
 }
+
